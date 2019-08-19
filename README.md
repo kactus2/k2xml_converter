@@ -25,7 +25,7 @@ For instance, Debian 8.1.0 did not have mono by default.
 
 ## Installing
 
-The conversion tool is provided as a prebuild standalone application.
+The conversion tool is provided as a prebuild standalone application. Please find the zip-package [here](https://github.com/kactus2/k2xml_converter/releases/tag/v1.0).
 
 ## Usage
 
@@ -68,10 +68,6 @@ An XML file comp.xml would be transformed from SPIRIT 1.5 to IP-XACT 2009, then 
 would be converted. The updated XML would be stored in file k2u_comp.xml.
 
 Files with the given prefix are skipped in the converstion, as these are considered as already converted files.
-
-## Deployment
-
-TODO.
 
 ## Built With
 
