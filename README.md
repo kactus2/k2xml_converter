@@ -34,14 +34,14 @@ Please include also any other files and subdirectoies in the backup as well.
 2. Launch the application.
 3. Select a directory as the root directory for the conversion by either:
 	a) Type or copy the path in the text box, or
-	b) Click the "Select Folder" button. A directory browser dialog should appear.
+	b) Click the "Browse..." button. A directory browser dialog should appear.
 4. Press the "Convert" button.
 5. The XML files in the directory and all subdirectories are now scanned. After the scan, no new files are included in the conversion.
 6. Now the tool will convert every XML file found in the scan.
 By default, it will first convert from SPIRIT standard version 1.5 to IP-XACT 1685-2009 and then to IP-XACT 1685-2014. Finally, it
 applies the conversion rules for the vendor extensions used by Kactus2.
 7. The progress bar illustrates how large percentage of all the XML files are processed.
-You may also stop the conversion by clicking "Halt", but not reverse it!
+You may also stop the conversion by clicking "Cancel", but not reverse it!
 8. When conversion is done, the time started and finished are displayed.
 9. If need be, you will find log data at conversion.log.
 

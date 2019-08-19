@@ -348,7 +348,7 @@ namespace K2XML_Converter
 			// Check that there actually is something to process.
 	        if (!System.IO.Directory.Exists( inputPath ) )
 	        {
-	        	string errs = "ERROR: Invalid target directory specified! ↑";
+	        	string errs = "Error: Invalid target directory specified!";
 	        	labelStatus.Text = errs;
 				Console.WriteLine(errs);
 				return;
@@ -359,7 +359,7 @@ namespace K2XML_Converter
 				// Open the log file for writing.
 				logStream = new StreamWriter("conversion.log", false, Encoding.UTF8);
 				linkLabel.Links[0].LinkData = Path.GetFullPath("conversion.log");
-				linkLabel.Text = "Log file: " + Path.GetFullPath("conversion.log");
+				linkLabel.Text = "Log file written in " + Path.GetFullPath("conversion.log");
 			}
 			catch ( Exception exp )
 			{
@@ -447,7 +447,7 @@ namespace K2XML_Converter
 		{
 			if ( conversionWorker.IsBusy )
 			{
-	       		labelStatus.Text = "ERROR: A conversion was already on progress after scanning the files.";
+	       		labelStatus.Text = "Error: A conversion was already on progress after scanning the files.";
 				return;
 			}
 			
@@ -493,5 +493,5 @@ namespace K2XML_Converter
 			About af = new About();
 			af.Show();
 		}
-	}
+    }
 }

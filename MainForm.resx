@@ -118,18 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>12, 17</value>
   </metadata>
   <metadata name="conversionWorker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>170, 17</value>
+    <value>165, 17</value>
   </metadata>
   <metadata name="fileScanner.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>313, 17</value>
+    <value>308, 17</value>
   </metadata>
   <data name="labelDesc.Text" xml:space="preserve">
     <value>This tool converts Kactus2 SPIRIT 1.5 IP-XACT XML files to IEEE 1685-2014 including Kactus2 vendor extensions.
-The tool traverses the selected folder and any subfolders, opens Kactus2 1.5 XML files and adds new 1685-2014 files in the original location. Existing 2014 files will be overwritten. CREATING A BACKUP IS ADVAISABLE BEFORE USE
-</value>
+The tool traverses through the directory hierarchy, opens all 1.5 XML files and saves the converted 1685-2014 files in the original directory with a modified name. Any existing files with similar file name will be overwritten.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
