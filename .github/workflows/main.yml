@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Setup MSBuild
-    - uses: warrenbuckley/Setup-MSBuild@v1
+      uses: warrenbuckley/Setup-MSBuild@v1
     - name: Build
       run: msbuild K2XML_Converter.sln -p:Configuration=Release
