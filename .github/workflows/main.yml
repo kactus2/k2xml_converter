@@ -1,0 +1,15 @@
+name: Automated.Build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup MSBuild
+      uses: warrenbuckley/Setup-MSBuild@v1
+    - name: Build
+      run: msbuild K2XML_Converter.sln -p:Configuration=Release
